@@ -8,5 +8,14 @@ def gen(n):
             yield digit
 
 def split(n):
-    return list(gen(n))
+    digits = list(gen(n))
+    digits.reverse()
+    return digits
+
+def join(digits):
+    n = 0
+    for d in digits:
+        n *= 10
+        n += d
+    return n
 
