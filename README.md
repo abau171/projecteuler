@@ -11,6 +11,11 @@ given an honest attempt at solving them yourself.
 The solutions in this repo are *very nearly* 100% the result of my own ideas
 or non-Project Euler-specific research on math and algorithms.
 
+###Running
+All solutions should execute without errors by running
+`python3 solution/p<problem number>.py` from the repo root.
+
 ###Utilities
 I try to identify when I am using a particular technique many times throughout
-my solutions, and create reusable utilities in the `utils/` directory.
+my solutions, and create reusable utilities in the `solutions/utils/` directory.
+

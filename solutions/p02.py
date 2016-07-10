@@ -1,8 +1,8 @@
-from utils import fib
+from utils import sequence
 
 def sum_even_fib(upper_bound):
     even_sum = 0
-    g = fib.gen(2, 3)
+    g = sequence.fib(2, 3)
     n = next(g)
     while n <= upper_bound:
         even_sum += n
